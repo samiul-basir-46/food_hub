@@ -42,7 +42,6 @@ A Flutter-based Food Ordering app with modern UI, fully responsive design, and s
 ## ⚙️ Tech Stack
 - Flutter & Dart  
 - GetX for State Management  
-- Firebase (if used)  
 - Custom UI Components  
 
 ---
