@@ -77,10 +77,13 @@ class FavoriteView extends StatelessWidget {
                         product.name,
                         style: TextStyle(fontWeight: FontWeight.w700),
                       ),
-                      trailing: Icon(
-                        Icons.favorite,
+                      trailing: IconButton(
+                        icon: Icon(Icons.favorite),
                         color: AppColors.primaryColor,
-                        size: 30,
+                        iconSize: 30,
+                        onPressed: (){
+                          listController.toggleFavorite(product);
+                        },
                       ),
                     ),
                   );
