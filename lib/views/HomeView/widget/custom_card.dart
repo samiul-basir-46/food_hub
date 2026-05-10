@@ -2,7 +2,6 @@ import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:foodshop/controller/list_controller.dart';
 import 'package:foodshop/model/product_model.dart';
-import 'package:foodshop/routes/route_names.dart';
 import 'package:foodshop/utils/colors.dart';
 import 'package:get/get.dart';
 
@@ -29,7 +28,6 @@ class CustomCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    double screenHeight = MediaQuery.of(context).size.height;
     double screenWidth = MediaQuery.of(context).size.width;
 
     return Obx(

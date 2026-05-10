@@ -94,7 +94,7 @@ class HomeController extends GetxController {
         double price = double.parse(cleanPrice);
         total += price;
       } catch (e) {
-        print("Error parsing price: $priceString. Error: $e");
+        debugPrint("Error parsing price: $priceString. Error: $e");
       }
     }
     return total;
